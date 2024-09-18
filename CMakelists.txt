@@ -1,0 +1,42 @@
+cmake_minimum_required(VERSION 3.27)
+
+project(image)
+
+
+
+set(CMAKE_CXX_STANDARD 17)
+
+
+
+# 设置OpenCV的头文件路径
+
+include_directories("/usr/local/Cellar/opencv/4.10.0_5/include"
+        "head/"
+)
+
+
+
+# 设置OpenCV的库文件路径
+
+link_directories("/usr/local/Cellar/opencv/4.10.0_5/lib")
+
+
+
+# 链接OpenCV库
+
+find_package(OpenCV REQUIRED)
+
+include_directories(${OpenCV_INCLUDE_DIRS})
+
+
+
+add_executable(opencv
+        source/main.cpp
+        source/tutorial.cpp
+        source/quickOpencv.cpp
+        source/add.cpp
+        source/tutorial_.cpp
+        head/tutorial_.h
+)
+
+target_link_libraries(opencv ${OpenCV_LIBS})

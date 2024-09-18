@@ -1,0 +1,10 @@
+# ninja log v5
+7	925	1726303957617395421	CMakeFiles/opencv.dir/source/quickOpencv.cpp.o	9d340461f0e19871
+925	1018	1726303957711301476	opencv	6033aedf19ab1b22
+7	918	1726303957607950457	CMakeFiles/opencv.dir/source/main.cpp.o	881217bc91379399
+6	38	1726292179124274236	CMakeFiles/opencv.dir/source/opencv.cpp.o	a617fd6f91ec4cc5
+13	79	1726293763884726533	CMakeFiles/opencv.dir/source/add.cpp.o	6be229c30ea8dac6
+2	519	1726282198994120865	CMakeFiles/opencv.dir/source/tutorial.cpp.o	5ca1c0599d719b9
+16	625	1726280767195163133	CMakeFiles/opencv.dir/tutorial.cpp.o	1afab7b8d6041b92
+10	889	1726281041479630070	CMakeFiles/opencv.dir/main.cpp.o	dd2fbe8c0ba4fb2a
+2	61	1726320873131061775	build.ninja	5855b7914acaa03e
